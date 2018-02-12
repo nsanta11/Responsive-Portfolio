@@ -379,6 +379,12 @@ h2 {
       height: 80px;
     }
 
+    #message, #email, #name {
+      position: static;
+      width: 250px;
+      margin: 20px 70px;
+    }
+
     header {
       position: static;
       width: 800px;
