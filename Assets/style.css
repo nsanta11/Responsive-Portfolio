@@ -91,10 +91,15 @@ h2 {
     margin-top:-85px;
   } 
 
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   input {
     color:lightgray;
   }
-     
+
   footer {
     position: fixed;
     width: 100%;
@@ -157,7 +162,7 @@ h2 {
 
   #left {
     float: left;
-    position:fixed;
+    position: absolute;
     top: 105px;
     left: 50px;
     width: 650px;
@@ -172,7 +177,7 @@ h2 {
 
   #right {
     float: left;
-    position: fixed;
+    position: absolute;
     top: 105px;
     left: 760px;
     width: 270px;
@@ -231,6 +236,11 @@ h2 {
     font-size: 14px;
   }
 
+  #pic1, #pic2, #pic3, #pic4, #pic5 {
+    width: 260px;
+    height: 173px;
+  }
+
   #submit {
     width: 110px;
     height: 35px;
@@ -242,6 +252,11 @@ h2 {
     text-align: center;
     border: 2px solid;
     border-color: rgb(201, 196, 196);
+  }
+
+  #wrapper {
+    flex: 1 0 auto;
+    margin-bottom: 200px;
   }
 
   #footertype {
@@ -302,6 +317,15 @@ h2 {
     #myphoto {
       width: 275px;
     }
+
+    #pic1, #pic2, #pic3, #pic4, #pic5 {
+      width: 400px;
+      height: 275px;
+    }
+
+    h4 {
+      width: 400px;
+    }
   }
 
 
@@ -309,19 +333,19 @@ h2 {
 
     #left {
       position: static;
-      width: 600px;
+      width: 650px;
       margin: 20px 70px;
     }
 
     #right {
       position: static;
-      width: 600px;
+      width: 650px;
       margin: 20px 70px;
     }
 
     #topcontainer {
       position: static;
-      width: 600px;
+      width: 650px;
       margin-left: 0px;
       margin-top: -30px;
       left: 0px;
@@ -330,7 +354,7 @@ h2 {
 
     header {
       position: static;
-      width: 600px;
+      width: 650px;
       margin-left: 70px;
       margin-top: -30px;
       left: 0px;
@@ -383,6 +407,15 @@ h2 {
       position: static;
       width: 250px;
       margin: 20px 70px;
+    }
+
+    #pic1, #pic2, #pic3, #pic4, #pic5 {
+      width: 300px;
+      height: 200px;
+    }
+
+    h4 {
+      width: 300px;
     }
 
     header {
